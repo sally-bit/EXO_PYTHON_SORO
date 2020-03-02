@@ -21,7 +21,7 @@ def etat_eau(Tre):
         
 
 while cont:
-    temperature=int(input("Entrez la temperature de l'eau pour voir son etat : "))   
+    temperature=float(input("Entrez la temperature de l'eau pour voir son etat : "))   
     etat_eau(temperature)     
     choix=input("voulez-vous continuez ? oui ou non : ")
     if choix in "non":
