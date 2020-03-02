@@ -7,7 +7,7 @@ from math import*
 """
 
 def etat_eau(Tre):
-    if Tre >48:
+    if Tre >100:
         print("l'eau est a l'etat vapeur")
     elif Tre<0:
         print("l'eau est a l'etat glace")
