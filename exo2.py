@@ -9,7 +9,7 @@ from math import*
 
 
 def etat_eau(Tre):
-    tem_eleve=Tre>40
+    tem_eleve=Tre>100
     tem_bas=Tre<0
     if tem_eleve:
         print("l'eau est a l'etat vapeur")
