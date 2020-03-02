@@ -6,25 +6,23 @@ from math import*
 
 
 """
-def somme_n(n,a):
-    N=n+1
+def somme_n(a):
     som=0
-    for elt in range(1,N):
-        s1=(1/elt)
-        som +=s1
-        if som > a:
-            print("A partir n =",elt,"Hn depasse a=",a,"jusqu'a ",n)
-            break
+    n=1
+    while som < a:
+        som += 1/k
+         n += 1
+    print("A partir n =",(n-1),"Hn depasse a=",a)
+
+
         
             
 
 
 cont=True
 while cont:
-    n=int(input("Entrez le nombre n : "))   
-    a=int(input("Entrez le nombre a : "))   
-    
-    somme_n(n,a)
+    a=float(input("Entrez le nombre a : "))   
+    somme_n(a)
    
     choix=input("voulez-vous continuez ? oui ou non : ")
     if choix in "non":
