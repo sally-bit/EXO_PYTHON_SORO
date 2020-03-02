@@ -12,7 +12,7 @@ def somme_n(a):
     while som < a:
         som += 1/k
          n += 1
-    print("A partir n =",(n-1),"Hn depasse a=",a)
+    print("A partir n =",n,"Hn depasse a=",a)
 
 
         
